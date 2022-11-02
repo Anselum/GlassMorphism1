@@ -1,53 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>GlassMorphism-1</title>
+        <link rel="stylesheet" href="main.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GlassMorphism-1</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-
-<body>
-    <div class="container">
-        <div class="card">
-            <h1>01</h1>
-            <h3>Card One</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illo repudiandae ipsum earum pariatur,
-                architecto quam consequuntur fuga consectetur quasi odit id? Explicabo eum suscipit vero corporis
-                cupiditate! Harum, excepturi.</p>
-            <a href="#">Read More</a>
+    <body>
+        <div class="container">
+            <div class="card">
+                <h1>01</h1>
+                <h3>HTML</h3>
+                <p>
+                    The HyperText Markup Language or HTML is the standard markup
+                    language for documents designed to be displayed in a web
+                    browser. It can be assisted by technologies such as
+                    Cascading Style Sheets and scripting languages such as
+                    JavaScript.
+                </p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="card">
+                <h1>02</h1>
+                <h3>CSS</h3>
+                <p>
+                    Cascading Style Sheets is a style sheet language used for
+                    describing the presentation of a document written in a
+                    markup language such as HTML or XML. CSS is a cornerstone
+                    technology of the World Wide Web, alongside HTML and
+                    JavaScript.
+                </p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="card">
+                <h1>03</h1>
+                <h3>JAVASCRIPT</h3>
+                <p>
+                    JavaScript, often abbreviated as JS, is a programming
+                    language that is one of the core technologies of the World
+                    Wide Web, alongside HTML and CSS. As of 2022, 98% of
+                    websites use JavaScript on the client side for webpage
+                    behavior, often incorporating third-party libraries.
+                </p>
+                <a href="#">Read More</a>
+            </div>
         </div>
-        <div class="card">
-            <h1>02</h1>
-            <h3>Card Two</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illo repudiandae ipsum earum pariatur,
-                architecto quam consequuntur fuga consectetur quasi odit id? Explicabo eum suscipit vero corporis
-                cupiditate! Harum, excepturi.</p>
-            <a href="#">Read More</a>
-        </div>
-        <div class="card">
-            <h1>03</h1>
-            <h3>Card Three</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illo repudiandae ipsum earum pariatur,
-                architecto quam consequuntur fuga consectetur quasi odit id? Explicabo eum suscipit vero corporis
-                cupiditate! Harum, excepturi.</p>
-            <a href="#">Read More</a>
-        </div>
-    </div>
 
-    <script src="index.js"></script>
-    <script type="text/javascript" src="vanilla-tilt.js"></script>
-    <script type="text/javascript">
-        VanillaTilt.init(document.querySelectorAll(".card"), {
-            max: 25,
-            speed: 400,
-            scale: 1.01,
-            glare: true,
-            "max-glare": 0.3,
-        });
-    </script>
-</body>
-
+        <script src="index.js"></script>
+        <script type="text/javascript" src="vanilla-tilt.js"></script>
+        <script type="text/javascript">
+            VanillaTilt.init(document.querySelectorAll(".card"), {
+                max: 25,
+                speed: 400,
+                scale: 1.01,
+                glare: true,
+                "max-glare": 0.3,
+            });
+        </script>
+    </body>
 </html>
